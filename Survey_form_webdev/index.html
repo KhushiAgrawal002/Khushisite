@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<center>
+    <div class="heading">
+        <h1>Survey form</h1>
+    </div>
+    <div class="formd">
+    <div>
+      <h3>Let us know we can improve freeCodeCamp</h3>
+          <label >Name</label>
+          <input type="text" placeholder="Enter your Name"><br>     
+    </div>
+    <div class="a">
+        <label>Email</label>
+        <input type="text" placeholder="Enter your Email"><br>
+    </div>
+    <div class="b">
+        <label >Age</label>
+        <input type="number" min="1" max="200"><br>
+    </div>
+    <div class="c">
+        <label>Which option best describes your role?</label>
+        <select name="roles" id="role">
+            <option value="Student">Student</option>
+            <option value="Student">Admin</option>
+            <option value="Student">Faculty</option>
+        </select>
+    </div>
+    <div class="d">
+        <label>How likely is that you would recommend freeCodeCamp to a friend?</label>
+        <input type="radio" name= "rating">
+        <label>Definately</label><br/>
+        <input type="radio" name= "rating">
+        <label>Maybe</label><br/>
+        <input type="radio" name= "rating">
+        <label >Not sure</label><br/>
+    </div>
+    <div class="e">
+        <label>What do you like most in FCC?</label>
+        <select name="complement" id="complement">
+            <option value="Select an option">GUI </option>
+            <option value="Select an option">Features </option>
+            <option value="Select an optiont">Work flow </option>
+        </select>
+    </div>
+    <div class="suggestions">
+        <label>Things that should be improved in the future(Check all that apply):</label>
+        <input type="radio" name= "suggestions" >
+        <label>Front-end Projects</label><br/>
+        <input type="radio" name= "suggestions" >
+        <label>Front-end rojects</label><br/>
+        <input type="radio" name= "suggestions" >
+        <label>Front-end Projects</label><br/>
+    </div>
+</div>
+</div>
+</center>
+</body>
+</html>
